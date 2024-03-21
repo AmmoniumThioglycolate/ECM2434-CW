@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'groupsoft',
-        'HOST': 'localhost',
+        'NAME': 'masale-database',
+        'USER': 'gfmgigxvtf',
+        'PASSWORD': '3R42R6UCQ1GK317I$',
+        'HOST': 'masale-server.postgres.database.azure.com ',
         'PORT': '5432'
     }
 }
